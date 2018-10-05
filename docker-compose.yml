@@ -3,9 +3,9 @@ version: '2'
 services:
   proxy:
     build: nginx/
-    container_name: "portainer-proxy"
+    container_name: "ibnus-portainer"
     ports:
-      - "80:80"
+      - "9000:9000"
     networks:
       - local
 
