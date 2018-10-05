@@ -6,9 +6,12 @@ This setup also comes with [watchtower](https://hub.docker.com/r/v2tec/watchtowe
 
 # Requirements
 
-1. Install [Docker](http://docker.io).
-2. Install [Docker-compose](http://docs.docker.com/compose/install/).
-3. Clone this repository
+1. Clone this repository
+2. Install Docker and Install Docker-compose. By running 
+
+```
+sudo ./docker-install.sh
+```
 
 # Usage
 
